@@ -1,0 +1,16 @@
+extends layout.pug
+
+block content
+
+  article.portfolio-intro
+    h1 I Code JS
+    p Checkout the projects I built in JavaScript. Click on the thumbnails for more screenshots and a link to a live demo.
+
+
+  article.portfolio-project-thumbs
+    .projects-box.box.grid 
+      each project in projects
+        .cell
+          a(href=`/project/${project.id}`)
+            img.thumbnail(src=`${project.image_url[0]}`, alt=`${project.project_name}`)
+            h5= project.project_name

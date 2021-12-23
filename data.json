@@ -1,0 +1,50 @@
+{
+    "projects": [
+      {
+        "id": 0,
+        "project_name": "Random Quote Generator",
+        "description": "My first project for the Treehouse Full-Stack JavaScript Techdegree. It is an app that displays a quote at random each time the button is clicked.",
+        "technologies": ["javascript", "html", "css"],
+        "live_link": "https://darylmonte.github.io/01-random-code-generator/",
+        "github_link": "https://github.com/darylmonte/01-random-code-generator",
+        "image_url": ["./static/images/project-01-hero.png", "../static/images/project-01-01.png", "../static/images/project-01-02.png", "../static/images/project-01-03.png"]
+      },
+      {
+        "id": 1,
+        "project_name": "Data Pagination and Filtering",
+        "description": "My second project for the Treehouse Full-Stack JavaScript Techdegree. It is an app that adds pagination to enhance the usability of a web page.",
+        "technologies": ["javascript", "html", "css"],
+        "live_link": "https://darylmonte.github.io/02-data-pagination-and-filtering/",
+        "github_link": "https://github.com/darylmonte/02-data-pagination-and-filtering",
+        "image_url": ["./static/images/project-02-hero.png", "../static/images/project-02-01.png", "../static/images/project-02-02.png", "../static/images/project-02-03.png"]
+      },
+      {
+        "id": 2,
+        "project_name": "Interactive Form",
+        "description": "My third project for the Treehouse Full-Stack JavaScript Techdegree.The objective is to enhance interactive registration form through JavaScript.",
+        "technologies": ["javascript", "html", "css"],
+        "live_link": "https://darylmonte.github.io/03-interactive-form/",
+        "github_link": "https://github.com/darylmonte/03-interactive-form",
+        "image_url": ["./static/images/project-03-hero.png", "../static/images/project-03-01.png", "../static/images/project-03-02.png", "../static/images/project-03-03.png"]
+      },
+      {
+        "id": 3,
+        "project_name": "Object Oriented Programming Game",
+        "description": "My fourth project for the Treehouse Full-Stack JavaScript Techdegree. In this project, I've created a browser-based, word guessing game: \"Phrase Hunter\".",
+        "technologies": ["javascript", "html", "css"],
+        "live_link": "https://darylmonte.github.io/04-oop-game/",
+        "github_link": "https://github.com/darylmonte/04-oop-game",
+        "image_url": ["./static/images/project-04-hero.png", "../static/images/project-04-01.png", "../static/images/project-04-02.png", "../static/images/project-04-03.png"]
+      },
+      {
+        "id": 4,
+        "project_name": "Public API Requests",
+        "description": "My fifth project for the Treehouse Full-Stack JavaScript Techdegree. In this project, I've created an employee directory using the Random User Generator API. Clicking the employee's name or image will open a modal window with more detailed information. I've added a search feature so that employees can be filtered by name. I've added navigation buttons to switch back and forth between employees when the detail modal window is open.",
+        "technologies": ["javascript", "html", "css"],
+        "live_link": "https://darylmonte.github.io/05-public-apiRequests/",
+        "github_link": "https://github.com/darylmonte/05-public-apiRequests",
+        "image_url": ["./static/images/project-05-hero.png", "../static/images/project-05-01.png", "../static/images/project-05-02.png", "../static/images/project-05-03.png"]
+      }
+    ]
+  }
+  

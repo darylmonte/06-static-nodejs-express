@@ -1,0 +1,24 @@
+extends layout.pug
+
+block content
+
+  nav.nav
+    a(href='/')
+      span &larr;
+      |  Back
+
+  article.portfolio-about
+    .inner-wrapper.flex-row-wrap.two-col
+      .error
+        h1= `${err.message}`
+        p= `Status: ${err.status}`
+        p The text below probably doesn't mean anything to you unless you're a developer. You can ignore it or go back #[a(href="/") home] and try again.
+        a.btn-link(href='/') BACK TO HOME
+        hr
+        pre= err.stack
+        hr
+
+    nav.nav
+      a(href='/')
+        span &larr;
+        |  Back
